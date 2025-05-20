@@ -1,0 +1,47 @@
+POST http://localhost:8000/api/poli
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ ,
+Content-Type: application/json
+
+{
+    "PoliName":"Poli A",
+    "PoliCode":"P - A",
+    "PoliColor":"255,0,255"
+}
+
+###
+GET http://localhost:8000/api/poli?search=
+
+###
+GET http://localhost:8000/api/poli/6822e7dc191c0427ab4b39a8
+
+###
+GET http://localhost:8000/api/poli/queue
+
+###
+PUT http://localhost:8000/api/poli/6822d5ffb82d26757adc5964
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ ,
+Content-Type: application/json
+
+{
+    "PoliName":"Poli Second",
+    "PoliCode":"P - 2",
+    "PoliColor":"0,0,0"
+}
+
+###
+DELETE http://localhost:8000/api/poli/68236129075474b86c44e8d7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ 
+
+###
+PUT http://localhost:8000/api/poli/print-queue/68245bf83bd14370f365bdee
+
+###
+PUT http://localhost:8000/api/poli/ring-queue/68245b893bd14370f365bde14
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ ,
+Content-Type: application/json
+
+{
+    "No":1,
+    "Date":"2025-05-15",
+    "Time":"13:15:38"
+}

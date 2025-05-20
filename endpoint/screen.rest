@@ -1,0 +1,33 @@
+POST http://localhost:8000/api/screen
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ ,
+Content-Type: application/json
+
+{
+    "ScreenName":"Screen first",
+    "ScreenPoli":["681e2b899e565af610b7098e"],
+    "ScreenInfo":""
+}
+
+###
+GET http://localhost:8000/api/screen?search=
+
+###
+GET http://localhost:8000/api/screen/68241380acdf8ffebe2269a3
+
+###
+GET http://localhost:8000/api/screen/queue/68241380acdf8ffebe2269a3
+
+###
+PUT http://localhost:8000/api/screen/681e2d75dd524c5f9171c381
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ ,
+Content-Type: application/json
+
+{
+    "ScreenName":"Screen First",
+    "ScreenPoli":["6822e7dc191c0427ab4b39a8","6822d58f90248647c402716d"],
+    "ScreenInfo":""
+}
+
+###
+DELETE http://localhost:8000/api/screen/681e2ea4f716a41896fbfd0b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ 

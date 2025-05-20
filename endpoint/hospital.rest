@@ -1,0 +1,34 @@
+###
+GET http://localhost:8000/api/hospital
+
+###
+PUT http://localhost:8000/api/hospital/681f3742355154bbf620becf
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDc2NTExMDh9.4Rut4OYirv2X3AuU7yUbUA270hwk3Cq5NO83tx3VWVQ ,
+Content-Type: application/json
+
+{
+    "HospitalName":"Hospital Name",
+    "HospitalAddress":"Medan",
+    "HospitalPhone":"0812xxxx",
+    "HospitalEmail":"hospital@gmail.com",
+    "HospitalLogo":"",
+    "HospitalInfo":"HospitalInfo",
+    "HospitalMarquee":"Layanan ini di buka dari pukul 09.00 - 18.00 WIB ",
+}
+
+###
+POST http://localhost:8000/api/hospital/login
+Content-Type: application/json
+
+{
+    "HospitalId":"hospital112",
+    "HospitalPassword":"Hospital11258"
+}
+
+###
+POST http://localhost:8000/api/hospital/logout/681f3742355154bbf620becf
+Content-Type: application/json
+
+{
+    
+}

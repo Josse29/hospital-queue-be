@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "68241380acdf8ffebe2269a3"
+  },
+  "ScreenName": "Screen First",
+  "ScreenPoli": [
+    {
+      "$oid": "6822e7dc191c0427ab4b39a8"
+    },
+    {
+      "$oid": "6823646f6d0692d4d49446f2"
+    },
+    {
+      "$oid": "6823891348ed9351182f85e1"
+    },
+    {
+      "$oid": "68245b663bd14370f365bdd6"
+    },
+    {
+      "$oid": "68245b893bd14370f365bde1"
+    },
+    {
+      "$oid": "68245be43bd14370f365bde9"
+    },
+    {
+      "$oid": "68245bf83bd14370f365bdee"
+    },
+    {
+      "$oid": "6826bedeea1579a967d28f14"
+    }
+  ],
+  "ScreenInfo": "x",
+  "createdAt": {
+    "$date": "2025-05-14T03:52:32.415Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T04:28:24.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "682417e61771f818cdd8e0af"
+  },
+  "ScreenName": "Screen Second",
+  "ScreenPoli": [
+    {
+      "$oid": "6822e7dc191c0427ab4b39a8"
+    }
+  ],
+  "ScreenInfo": "qqqq",
+  "createdAt": {
+    "$date": "2025-05-14T04:11:18.392Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T07:22:48.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68241b021771f818cdd8e0d9"
+  },
+  "ScreenName": "Screen Third",
+  "ScreenPoli": [
+    {
+      "$oid": "6823646f6d0692d4d49446f2"
+    }
+  ],
+  "ScreenInfo": "",
+  "createdAt": {
+    "$date": "2025-05-14T04:24:34.989Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-14T04:24:34.989Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "681f3742355154bbf620becf"
+  },
+  "HospitalName": "Hospital Name",
+  "HospitalAddress": "Medan",
+  "HospitalPhone": "0812xxxx",
+  "HospitalEmail": "hospital@gmail.com",
+  "HospitalLogo": "",
+  "HospitalInfo": "HospitalInfo",
+  "HospitalMarquee": "Layanan Ini Di Buka Dari Pukul 09.00 - 18.00 Wib",
+  "createdAt": {
+    "$date": "2025-05-10T11:23:46.888Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T13:52:48.098Z"
+  },
+  "__v": 0,
+  "HospitalId": "hospital112",
+  "HospitalPassword": "$2b$10$dtD/Xi8bmjxL2J5A945u7eluknZvJssi3dWtdJKHr06QmFJMl8k5W",
+  "HospitalLogin": false
+}]

@@ -1,0 +1,648 @@
+[{
+  "_id": {
+    "$oid": "6822e7dc191c0427ab4b39a8"
+  },
+  "PoliName": "Poli A",
+  "PoliCode": "A",
+  "PoliColor": "200,0,0",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-19",
+      "Time": "09:39:43",
+      "Code": "A - 1",
+      "PoliName": "Poli A",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-19",
+      "Time": "09:39:46",
+      "Code": "A - 2",
+      "PoliName": "Poli A",
+      "CallTimes": 3
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-19",
+      "Time": "09:39:48",
+      "Code": "A - 3",
+      "PoliName": "Poli A",
+      "CallTimes": 3
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-18",
+      "Time": "23:57:51",
+      "Code": "A - 1",
+      "PoliName": "Poli A",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-18",
+      "Time": "23:57:53",
+      "Code": "A - 2",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-18",
+      "Time": "23:57:55",
+      "Code": "A - 3",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-17",
+      "Time": "16:38:19",
+      "Code": "A - 1",
+      "PoliName": "Poli A",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-17",
+      "Time": "16:38:44",
+      "Code": "A - 2",
+      "PoliName": "Poli A",
+      "CallTimes": 3
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "12:22:46",
+      "Code": "A - 1",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-16",
+      "Time": "12:26:00",
+      "Code": "A - 2",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-16",
+      "Time": "12:48:16",
+      "Code": "A - 3",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 4,
+      "Date": "2025-05-16",
+      "Time": "12:49:18",
+      "Code": "A - 4",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 5,
+      "Date": "2025-05-16",
+      "Time": "12:55:29",
+      "Code": "A - 5",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 6,
+      "Date": "2025-05-16",
+      "Time": "12:56:01",
+      "Code": "A - 6",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 7,
+      "Date": "2025-05-16",
+      "Time": "12:56:41",
+      "Code": "A - 7",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-14",
+      "Time": "21:36:51",
+      "Code": "A - 1",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-14",
+      "Time": "21:37:01",
+      "Code": "A - 2",
+      "PoliName": "Poli A",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-13T06:34:04.128Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T03:24:22.964Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6823646f6d0692d4d49446f2"
+  },
+  "PoliName": "Poli B",
+  "PoliCode": "B",
+  "PoliColor": "0,200,0",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-18",
+      "Time": "23:57:57",
+      "Code": "B - 1",
+      "PoliName": "Poli B",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-17",
+      "Time": "16:38:23",
+      "Code": "B - 1",
+      "PoliName": "Poli B",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-17",
+      "Time": "16:38:54",
+      "Code": "B - 2",
+      "PoliName": "Poli B",
+      "CallTimes": 3
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "12:26:39",
+      "Code": "B - 1",
+      "PoliName": "Poli B",
+      "CallTimes": 0
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-16",
+      "Time": "12:27:42",
+      "Code": "B - 2",
+      "PoliName": "Poli B",
+      "CallTimes": 0
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-16",
+      "Time": "12:49:25",
+      "Code": "B - 3",
+      "PoliName": "Poli B",
+      "CallTimes": 0
+    },
+    {
+      "No": 4,
+      "Date": "2025-05-16",
+      "Time": "13:03:50",
+      "Code": "B - 4",
+      "PoliName": "Poli B",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-14",
+      "Time": "21:37:05",
+      "Code": "B - 1",
+      "PoliName": "Poli B",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-13T15:25:35.668Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T16:57:57.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6823891348ed9351182f85e1"
+  },
+  "PoliName": "Poli C",
+  "PoliCode": "C",
+  "PoliColor": "0,0,255",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "12:28:15",
+      "Code": "C - 1",
+      "PoliName": "Poli C",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-13T18:01:55.839Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T05:28:15.919Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68245b663bd14370f365bdd6"
+  },
+  "PoliName": "Poli D",
+  "PoliCode": "D",
+  "PoliColor": "35,0,255",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "12:39:43",
+      "Code": "D - 1",
+      "PoliName": "Poli D",
+      "CallTimes": 0
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-16",
+      "Time": "12:40:57",
+      "Code": "D - 2",
+      "PoliName": "Poli D",
+      "CallTimes": 0
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-16",
+      "Time": "12:43:08",
+      "Code": "D - 3",
+      "PoliName": "Poli D",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-14T08:59:18.430Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T05:43:08.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68245b893bd14370f365bde1"
+  },
+  "PoliName": "Poli E",
+  "PoliCode": "E",
+  "PoliColor": "1,200,196",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "13:03:56",
+      "Code": "E - 1",
+      "PoliName": "Poli E",
+      "CallTimes": 0
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-16",
+      "Time": "17:28:01",
+      "Code": "E - 2",
+      "PoliName": "Poli E",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-15",
+      "Time": "13:15:38",
+      "Code": "E - 1",
+      "PoliName": "Poli E",
+      "CallTimes": 3
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-14T08:59:53.087Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-16T10:28:01.605Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68245be43bd14370f365bde9"
+  },
+  "PoliName": "Poli F",
+  "PoliCode": "F",
+  "PoliColor": "0,200,20",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-18",
+      "Time": "23:23:23",
+      "Code": "F - 1",
+      "PoliName": "Poli F",
+      "CallTimes": 3
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "17:11:50",
+      "Code": "F - 1",
+      "PoliName": "Poli F",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-14T09:01:24.783Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-18T16:36:31.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68245bf83bd14370f365bdee"
+  },
+  "PoliName": "Poli Gigi",
+  "PoliCode": "G",
+  "PoliColor": "20,20,140",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-19",
+      "Time": "09:40:15",
+      "Code": "G - 1",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-19",
+      "Time": "09:40:17",
+      "Code": "G - 2",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 2
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-19",
+      "Time": "09:40:18",
+      "Code": "G - 3",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-18",
+      "Time": "15:49:33",
+      "Code": "G - 1",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-18",
+      "Time": "15:49:37",
+      "Code": "G - 2",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-18",
+      "Time": "15:49:40",
+      "Code": "G - 3",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 4,
+      "Date": "2025-05-18",
+      "Time": "21:01:56",
+      "Code": "G - 4",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 5,
+      "Date": "2025-05-18",
+      "Time": "21:01:58",
+      "Code": "G - 5",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 6,
+      "Date": "2025-05-18",
+      "Time": "21:02:00",
+      "Code": "G - 6",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 7,
+      "Date": "2025-05-18",
+      "Time": "23:23:21",
+      "Code": "G - 7",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 3
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "09:55:02",
+      "Code": "G - 1",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 2
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-15",
+      "Time": "09:18:06",
+      "Code": "G - 1",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 1
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-15",
+      "Time": "09:19:29",
+      "Code": "G - 2",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-14",
+      "Time": "21:37:07",
+      "Code": "G - 1",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 0
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-14",
+      "Time": "21:37:11",
+      "Code": "G - 2",
+      "PoliName": "Poli Gigi",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-14T09:01:44.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T03:25:27.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6826bedeea1579a967d28f14"
+  },
+  "PoliName": "Poli Jantung",
+  "PoliCode": "P - J",
+  "PoliColor": "200,52,0",
+  "PoliQueue": [
+    {
+      "No": 1,
+      "Date": "2025-05-19",
+      "Time": "09:40:20",
+      "Code": "P - J - 1",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-19",
+      "Time": "09:40:21",
+      "Code": "P - J - 2",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-19",
+      "Time": "09:40:23",
+      "Code": "P - J - 3",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 4,
+      "Date": "2025-05-19",
+      "Time": "09:44:04",
+      "Code": "P - J - 4",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 5,
+      "Date": "2025-05-19",
+      "Time": "09:58:24",
+      "Code": "P - J - 5",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 2
+    },
+    {
+      "No": 6,
+      "Date": "2025-05-19",
+      "Time": "09:59:02",
+      "Code": "P - J - 6",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 0
+    },
+    {
+      "No": 7,
+      "Date": "2025-05-19",
+      "Time": "10:00:21",
+      "Code": "P - J - 7",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-18",
+      "Time": "15:49:42",
+      "Code": "P - J - 1",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 2,
+      "Date": "2025-05-18",
+      "Time": "15:49:44",
+      "Code": "P - J - 2",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 3,
+      "Date": "2025-05-18",
+      "Time": "15:49:46",
+      "Code": "P - J - 3",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 4,
+      "Date": "2025-05-18",
+      "Time": "20:54:36",
+      "Code": "P - J - 4",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 5,
+      "Date": "2025-05-18",
+      "Time": "20:54:42",
+      "Code": "P - J - 5",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 1
+    },
+    {
+      "No": 6,
+      "Date": "2025-05-18",
+      "Time": "20:54:43",
+      "Code": "P - J - 6",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 0
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-17",
+      "Time": "16:38:21",
+      "Code": "P - J - 1",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 3
+    },
+    {
+      "No": 1,
+      "Date": "2025-05-16",
+      "Time": "15:39:29",
+      "Code": "P - J - 1",
+      "PoliName": "Poli Jantung",
+      "CallTimes": 0
+    }
+  ],
+  "createdAt": {
+    "$date": "2025-05-16T04:28:14.521Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-19T09:41:46.950Z"
+  },
+  "__v": 0
+}]
