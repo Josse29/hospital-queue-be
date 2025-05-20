@@ -27,6 +27,9 @@ app.use(express.json());
 app.use("/poli", poliRoutes);
 app.use("/screen", screenRoutes);
 app.use("/hospital", hospitalRoutes);
+app.get("/", (req, res) => {
+  return res.status(200).json({ msg: "Welcome API Hospital Queue" });
+});
 app.use((req, res, next) => {
   res.status(404).json({
     errMsg: "Endpoint not found",
