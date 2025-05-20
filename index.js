@@ -24,9 +24,9 @@ dotenv.config();
 // parsing json in server
 app.use(express.json());
 // routes
-app.use("/api/poli", poliRoutes);
-app.use("/api/screen", screenRoutes);
-app.use("/api/hospital", hospitalRoutes);
+app.use("/poli", poliRoutes);
+app.use("/screen", screenRoutes);
+app.use("/hospital", hospitalRoutes);
 app.use((req, res, next) => {
   res.status(404).json({
     errMsg: "Endpoint not found",
