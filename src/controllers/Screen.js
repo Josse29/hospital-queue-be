@@ -17,7 +17,7 @@ const createScreen = async (req, res) => {
     });
     if (screenNameExisted) {
       return res
-        .status(409)
+        .status(400)
         .json({ errMsg: `${ScreenNameVal} - is already Existed !` });
     }
     // just in case
@@ -127,12 +127,10 @@ const readScreenId1 = async (req, res) => {
         },
       },
     ]);
-
     if (!result.length) {
-      return res.status(404).json({ message: "Screen not found" });
+      return res.status(409).json({ message: "Screen not found" });
     }
-
-    res.json(result[0]);
+    return res.status(200).json(result[0]);
   } catch (error) {
     res.status(500).json({ errMsg: error });
   }
@@ -144,7 +142,7 @@ const updateScreen = async (req, res) => {
     const ScreenNameVal = capitalizeWord(ScreenName);
     if (!ScreenNameVal || ScreenPoliSelected.length === 0) {
       return res
-        .status(400)
+        .status(409)
         .json({ errMsg: "Upppps, All Input are Required !" });
     }
     const sreenNameExisted = await Screen.findOne({
@@ -179,7 +177,7 @@ const deleteScreen = async (req, res) => {
   try {
     const screen = await Screen.findByIdAndDelete(id);
     if (!screen) {
-      return res.status(404).json({ errMsg: `Screen is not found !` });
+      return res.status(400).json({ errMsg: `Screen is not found !` });
     }
     return res
       .status(200)

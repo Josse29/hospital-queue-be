@@ -77,13 +77,13 @@ const login = async (req, res) => {
   try {
     if (!HospitalId || !HospitalPassword) {
       return res
-        .status(409)
+        .status(400)
         .json({ errMsg: "Username and Password are Required !" });
     }
     // checkid
     const hospital = await Hospital.findOne({ HospitalId });
     if (!hospital) {
-      return res.status(409).json({ errMsg: "Username is wrong !" });
+      return res.status(400).json({ errMsg: "Username is wrong !" });
     }
     // checkPassword
     const validPassword = await bcrypt.compare(
@@ -91,12 +91,12 @@ const login = async (req, res) => {
       hospital.HospitalPassword
     );
     if (!validPassword) {
-      return res.status(409).json({ errMsg: "Password is wrong !" });
+      return res.status(400).json({ errMsg: "Password is wrong !" });
     }
     // check he's already login
     if (hospital.HospitalLogin === true) {
       return res
-        .status(500)
+        .status(400)
         .json({ errMsg: `Uppsss, It's already Login with another device !` });
     }
     // updateLogin

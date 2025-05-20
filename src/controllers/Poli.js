@@ -22,14 +22,14 @@ const createPoli = async (req, res) => {
       PoliName: PoliNameVal,
     });
     if (namePoliExsited) {
-      return res.status(409).json({
+      return res.status(400).json({
         errMsg: `Upppss, Poli Name : ${PoliNameVal} - is already Existed !`,
       });
     }
     // valid exsited code Poli
     const codePoliExsited = await Poli.findOne({ PoliCode: PoliCodeVal });
     if (codePoliExsited) {
-      return res.status(409).json({
+      return res.status(400).json({
         errMsg: `Uppssss, Poli Code : ${PoliCodeVal} is already Existed !`,
       });
     }
@@ -37,7 +37,7 @@ const createPoli = async (req, res) => {
     const isWhite = validateWhite(PoliColor);
     if (isWhite) {
       return res
-        .status(409)
+        .status(400)
         .json({ errMsg: "Uppppss, Poli Color White isn't allowed !" });
     }
     // create new user
@@ -123,7 +123,7 @@ const updatePoli = async (req, res) => {
       _id: { $ne: id },
     });
     if (namePoliExsited) {
-      return res.status(409).json({
+      return res.status(400).json({
         errMsg: `Upppps, Poli Name : ${PoliNameVal} is already Existed !`,
       });
     }
@@ -133,7 +133,7 @@ const updatePoli = async (req, res) => {
       _id: { $ne: id },
     });
     if (codePoliExsited) {
-      return res.status(409).json({
+      return res.status(400).json({
         errMsg: `Upppps, Poli Code : ${PoliCodeVal} is Already Existed !`,
       });
     }
@@ -141,7 +141,7 @@ const updatePoli = async (req, res) => {
     const isWhite = validateWhite(PoliColor);
     if (isWhite) {
       return res
-        .status(409)
+        .status(400)
         .json({ errMsg: "Uppppss, Poli Color White isn't allowed !" });
     }
     // Update poli by id
@@ -155,7 +155,7 @@ const updatePoli = async (req, res) => {
       { new: true }
     );
     if (!updated) {
-      return res.status(404).json({ errMsg: "Poli Not Found!" });
+      return res.status(400).json({ errMsg: "Poli Not Found!" });
     }
     return res.status(200).json({
       msg: `${PoliNameVal} - has been Updated`,
@@ -169,7 +169,7 @@ const deletePoli = async (req, res) => {
   try {
     const result = await Poli.findByIdAndDelete(id);
     if (!result) {
-      return res.status(404).json({ errMsg: `Poli is not found !` });
+      return res.status(400).json({ errMsg: `Poli is not found !` });
     }
     return res
       .status(200)
@@ -199,7 +199,7 @@ const printPoliQueue = async (req, res) => {
       },
     ]);
     if (!poliAgg.length) {
-      return res.status(404).json({ errMsg: "Poli not found" });
+      return res.status(400).json({ errMsg: "Poli not found" });
     }
     const poli = poliAgg[0];
     const nextNo = poli.PoliQueueToday.length + 1;
@@ -248,7 +248,7 @@ const ringPoliQueue = async (req, res) => {
       { new: true }
     );
     if (!updatedPoli) {
-      return res.status(404).json({
+      return res.status(400).json({
         errMsg: `Poli Queue Is Not Found or It's already called 3 times`,
       });
     }
